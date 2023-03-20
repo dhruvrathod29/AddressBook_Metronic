@@ -161,7 +161,7 @@ namespace AddressBook_Metronic.Areas.CON_Contact.Controllers
         public IActionResult Save(CON_ContactModel modelCON_Contact)
         {
             #region PhotoPath
-            if (modelCON_Contact.File != null)
+           if (modelCON_Contact.File != null)
             {
                 string FilePath = "wwwroot\\Upload";
                 string path = Path.Combine(Directory.GetCurrentDirectory(), FilePath);
