@@ -180,10 +180,6 @@ namespace AddressBook_Metronic.Areas.CON_Contact.Controllers
             }
             #endregion
 
-
-
-
-
             if (modelCON_Contact.ContactID == null)
             {
 
